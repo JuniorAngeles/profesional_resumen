@@ -48,6 +48,9 @@
     "repoLabel": "Código de {project} ({repo}) en GitHub",
     "demo": "Demo en vivo",
     "demoLabel": "Demo en vivo de {project}",
+    "watchVideo": "Ver demo en video",
+    "videoTitle": "Demo en video de {project}",
+    "closeVideo": "Cerrar video",
     "stackLabel": "Tecnologías de {project}",
     "moreOnGithub": "Ver más en GitHub"
   },

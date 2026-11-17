@@ -77,7 +77,8 @@
         { "label": "Backend", "url": "https://github.com/JuniorAngeles/ERP-Contructora-backend", "private": true }
       ],
       "demo": null
-    }
+    },
+    "video": { "type": "file", "src": "/videos/bloque-erp.mp4", "poster": "/videos/bloque-erp.jpg" }
   },
   {
     "slug": "vinculalo",
@@ -116,7 +117,8 @@
         { "label": "Monorepo", "url": "https://github.com/JuniorAngeles/DATALINK", "private": true }
       ],
       "demo": null
-    }
+    },
+    "video": { "type": "file", "src": "/videos/vinculalo.mp4", "poster": "/videos/vinculalo.jpg" }
   },
   {
     "slug": "trackjob",

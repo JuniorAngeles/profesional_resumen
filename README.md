@@ -33,6 +33,14 @@ Todo el texto del sitio vive en `content/` y se valida con Zod en `lib/content.t
 - **CV:** hay uno por idioma en `public/cv/` (`junior-angeles-cv-es.pdf` y `junior-angeles-cv-en.pdf`). Si cambias el nombre, actualiza `profile.json → cv.file`.
 - **Repos privados:** con `"private": true` la tarjeta muestra la etiqueta "privado" sin enlace. Cámbialo a `false` cuando hagas público el repositorio.
 - **Demo en vivo:** pon la URL en `links.demo` (o `null` para ocultar el botón).
+- **Video del proyecto:** útil cuando no hay demo y el repositorio es privado. Agrega el campo opcional `video` al proyecto. La tarjeta muestra una portada con botón de reproducir y el video se abre en un diálogo; no se descarga hasta que alguien hace clic.
+
+  ```json
+  "video": { "type": "file", "src": "/videos/sloty.mp4", "poster": "/videos/sloty.jpg" }
+  "video": { "type": "youtube", "id": "dQw4w9WgXcQ" }
+  ```
+
+  Con `file`, guarda el video en `public/videos/` (`.mp4` o `.webm`, idealmente de menos de 20 MB) y, si puedes, una imagen de portada en `poster`. Para videos largos usa `youtube` con el ID del video (puede ser "no listado"): no pesa en el repositorio y la miniatura se toma de YouTube.
 
 ## Idiomas (español e inglés)
 

@@ -66,6 +66,15 @@ function createSchemas(locale: Locale) {
 
   const repo = z.object({ label: text, url: z.url(), private: z.boolean() })
 
+  const video = z.discriminatedUnion("type", [
+    z.object({
+      type: z.literal("file"),
+      src: z.string().startsWith("/"),
+      poster: z.string().startsWith("/").optional(),
+    }),
+    z.object({ type: z.literal("youtube"), id: z.string().regex(/^[\w-]{11}$/) }),
+  ])
+
   const project = z.object({
     slug: z.string(),
     title: text,
@@ -76,6 +85,7 @@ function createSchemas(locale: Locale) {
     featured: z.boolean(),
     year: z.string(),
     links: z.object({ repos: z.array(repo), demo: z.url().nullable() }),
+    video: video.optional(),
   })
 
   const experienceItem = z.object({
@@ -125,6 +135,7 @@ export type Social = Profile["socials"][number]
 export type SkillGroup = Content["skills"][number]
 export type Project = Content["projects"][number]
 export type Repo = Project["links"]["repos"][number]
+export type ProjectVideo = NonNullable<Project["video"]>
 export type ExperienceItem = Content["experience"][number]
 
 const contentByLocale = Object.fromEntries(
