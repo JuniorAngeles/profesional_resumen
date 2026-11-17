@@ -1,0 +1,88 @@
+{
+  "name": "Junior Angeles",
+  "initials": "JA",
+  "email": "jangeles03052005@gmail.com",
+  "role": { "es": "Desarrollador Full Stack", "en": "Full Stack Developer" },
+  "location": { "es": "República Dominicana", "en": "Dominican Republic" },
+  "availability": {
+    "es": "Disponible para nuevos proyectos y posiciones remotas",
+    "en": "Open to new projects and remote roles"
+  },
+  "greeting": { "es": "Hola, soy Junior 👋", "en": "Hi, I'm Junior 👋" },
+  "headline": {
+    "es": "Construyo plataformas SaaS, ERPs y sistemas en tiempo real de punta a punta.",
+    "en": "I build SaaS platforms, ERPs and real-time systems end to end."
+  },
+  "summary": {
+    "es": "Desarrollador Full Stack con más de 3 años de experiencia creando aplicaciones web con React, Next.js, NestJS, TypeScript y PostgreSQL. Me involucro desde la arquitectura y el diseño de la base de datos hasta la interfaz y el despliegue en la nube.",
+    "en": "Full Stack Developer with 3+ years of experience building web applications with React, Next.js, NestJS, TypeScript and PostgreSQL. I work across the whole product, from architecture and database design to the user interface and cloud deployment."
+  },
+  "cv": {
+    "file": { "es": "/cv/junior-angeles-cv-es.pdf", "en": "/cv/junior-angeles-cv-en.pdf" },
+    "downloadName": { "es": "Junior-Angeles-CV-ES.pdf", "en": "Junior-Angeles-Resume-EN.pdf" },
+    "language": { "es": "Español", "en": "English" },
+    "updatedAt": { "es": "nov. 2026", "en": "Nov 2026" }
+  },
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/JuniorAngeles", "icon": "github" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/juniorangeles", "icon": "linkedin" },
+    { "label": "Email", "url": "mailto:jangeles03052005@gmail.com", "icon": "mail" }
+  ],
+  "stats": [
+    { "value": "3+", "label": { "es": "Años de experiencia", "en": "Years of experience" } },
+    { "value": "3", "label": { "es": "Productos SaaS propios", "en": "SaaS products built" } },
+    { "value": "60+", "label": { "es": "Repositorios en GitHub", "en": "GitHub repositories" } }
+  ],
+  "about": {
+    "title": {
+      "es": "Desarrollo productos completos, de la base de datos a la interfaz",
+      "en": "I build complete products, from the database to the interface"
+    },
+    "paragraphs": [
+      {
+        "es": "Soy desarrollador Full Stack de República Dominicana. Me gusta construir productos completos: diseño el modelo de datos, defino la arquitectura del backend, creo interfaces cuidadas y me encargo del despliegue y la integración continua.",
+        "en": "I'm a Full Stack Developer from the Dominican Republic. I enjoy building complete products: I design the data model, define the backend architecture, craft polished interfaces and take care of deployment and continuous integration."
+      },
+      {
+        "es": "He trabajado en sistemas transaccionales, dashboards empresariales, rastreo en tiempo real con WebSockets y plataformas SaaS multiempresa. Hoy desarrollo soluciones en la nube con Python, FastAPI, React y Angular, e integro modelos de lenguaje para automatizar decisiones de negocio.",
+        "en": "I've worked on transactional systems, enterprise dashboards, real-time tracking with WebSockets and multi-tenant SaaS platforms. Today I build cloud solutions with Python, FastAPI, React and Angular, and integrate language models to automate business decisions."
+      },
+      {
+        "es": "Uso Claude Code y Cursor a diario para acelerar el desarrollo sin sacrificar la calidad del código.",
+        "en": "I use Claude Code and Cursor every day to ship faster without sacrificing code quality."
+      }
+    ],
+    "focus": [
+      {
+        "icon": "layers",
+        "title": { "es": "Producto completo", "en": "End-to-end ownership" },
+        "description": {
+          "es": "Del esquema de base de datos al despliegue: entrego funcionalidades terminadas, no piezas sueltas.",
+          "en": "From database schema to deployment: I deliver finished features, not loose pieces."
+        }
+      },
+      {
+        "icon": "boxes",
+        "title": { "es": "Arquitectura limpia", "en": "Clean architecture" },
+        "description": {
+          "es": "Arquitectura hexagonal, DDD y componentes reutilizables para que el código escale con el negocio.",
+          "en": "Hexagonal architecture, DDD and reusable components so the code scales with the business."
+        }
+      },
+      {
+        "icon": "gauge",
+        "title": { "es": "Rendimiento", "en": "Performance" },
+        "description": {
+          "es": "Interfaces rápidas, consultas optimizadas y tiempo real donde de verdad aporta valor.",
+          "en": "Fast interfaces, optimized queries and real-time features where they truly add value."
+        }
+      }
+    ],
+    "values": [
+      { "es": "Código legible y mantenible", "en": "Readable, maintainable code" },
+      { "es": "Comunicación clara con el equipo", "en": "Clear communication with the team" },
+      { "es": "Aprendizaje constante", "en": "Continuous learning" },
+      { "es": "Responsabilidad sobre lo que entrego", "en": "Ownership of what I deliver" }
+    ]
+  }
+}

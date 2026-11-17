@@ -1,0 +1,219 @@
+[
+  {
+    "slug": "sloty",
+    "title": "Sloty",
+    "tagline": {
+      "es": "SaaS de reservas y agenda para negocios",
+      "en": "Booking and scheduling SaaS for businesses"
+    },
+    "description": {
+      "es": "Plataforma multiempresa para que negocios de servicios publiquen su catálogo y reciban citas en línea. Cada empresa tiene su página pública, agenda, horarios, fechas bloqueadas, notificaciones push y actualizaciones en tiempo real.",
+      "en": "Multi-tenant platform where service businesses publish their catalog and take appointments online. Each business gets a public page, calendar, opening hours, blocked dates, push notifications and real-time updates."
+    },
+    "highlights": [
+      {
+        "es": "Motor de reservas con zonas horarias, horario laboral y fechas bloqueadas",
+        "en": "Booking engine with time zones, business hours and blocked dates"
+      },
+      {
+        "es": "Página pública por empresa instalable como PWA",
+        "en": "Installable PWA public page for each business"
+      },
+      {
+        "es": "Notificaciones push y bandeja de notificaciones en tiempo real",
+        "en": "Push notifications and a real-time notification inbox"
+      },
+      {
+        "es": "Colas de trabajo con Bull y Redis",
+        "en": "Job queues with Bull and Redis"
+      }
+    ],
+    "stack": ["Next.js", "NestJS", "TypeScript", "Prisma", "PostgreSQL", "Socket.io", "Redis", "Firebase"],
+    "featured": true,
+    "year": "2026",
+    "links": {
+      "repos": [
+        { "label": "Frontend", "url": "https://github.com/JuniorAngeles/SlotyApp", "private": true },
+        { "label": "API", "url": "https://github.com/JuniorAngeles/SlotyApi", "private": true }
+      ],
+      "demo": null
+    }
+  },
+  {
+    "slug": "bloque-erp",
+    "title": "Bloque ERP",
+    "tagline": {
+      "es": "ERP para empresas constructoras",
+      "en": "ERP for construction companies"
+    },
+    "description": {
+      "es": "ERP para constructoras con su propio sistema de diseño (temas claro y oscuro). Backend como monolito modular con arquitectura hexagonal y DDD, autenticación por sesión, administración de usuarios, roles y permisos.",
+      "en": "ERP for construction companies with its own design system (light and dark themes). Modular monolith backend with hexagonal architecture and DDD, session-based authentication, and user, role and permission management."
+    },
+    "highlights": [
+      {
+        "es": "Arquitectura hexagonal, DDD y monolito modular",
+        "en": "Hexagonal architecture, DDD and a modular monolith"
+      },
+      {
+        "es": "Sistema de diseño Bloque con tokens claro y oscuro",
+        "en": "Bloque design system with light and dark tokens"
+      },
+      {
+        "es": "Roles, permisos y gestión de sesiones",
+        "en": "Roles, permissions and session management"
+      },
+      {
+        "es": "Documentación OpenAPI y pruebas con Vitest",
+        "en": "OpenAPI documentation and Vitest test suites"
+      }
+    ],
+    "stack": ["Next.js", "NestJS", "TypeScript", "Prisma", "PostgreSQL", "Docker", "Vitest"],
+    "featured": true,
+    "year": "2026",
+    "links": {
+      "repos": [
+        { "label": "Frontend", "url": "https://github.com/JuniorAngeles/ERP-Constructora-Frontend", "private": true },
+        { "label": "Backend", "url": "https://github.com/JuniorAngeles/ERP-Contructora-backend", "private": true }
+      ],
+      "demo": null
+    }
+  },
+  {
+    "slug": "vinculalo",
+    "title": "Vincúlalo",
+    "tagline": {
+      "es": "SaaS de facturación y gestión empresarial",
+      "en": "Invoicing and business management SaaS"
+    },
+    "description": {
+      "es": "Plataforma multiempresa para República Dominicana: facturación electrónica e-CF con firma digital para la DGII, inventario con kardex y costo promedio, cuentas por cobrar y por pagar, tienda en línea por subdominio y un analista de IA sobre los datos del negocio.",
+      "en": "Multi-tenant platform for the Dominican Republic: e-CF electronic invoicing digitally signed for the DGII (tax authority), inventory with kardex and average costing, accounts receivable and payable, a subdomain-based online store and an AI analyst over business data."
+    },
+    "highlights": [
+      {
+        "es": "Aislamiento de datos por empresa con Row-Level Security",
+        "en": "Per-company data isolation with Row-Level Security"
+      },
+      {
+        "es": "e-CF con firmas XMLDSig y reportes fiscales 606/607",
+        "en": "e-CF with XMLDSig signatures and 606/607 tax reports"
+      },
+      {
+        "es": "Tienda en línea por subdominio con pagos CardNet",
+        "en": "Subdomain-based online store with CardNet payments"
+      },
+      {
+        "es": "Analista de IA con consultas SQL validadas de solo lectura",
+        "en": "AI analyst using validated, read-only SQL queries"
+      }
+    ],
+    "stack": ["Next.js", "NestJS", "TypeScript", "Prisma", "PostgreSQL", "BullMQ", "Redis", "Turborepo"],
+    "featured": true,
+    "year": "2026",
+    "links": {
+      "repos": [
+        { "label": "Monorepo", "url": "https://github.com/JuniorAngeles/DATALINK", "private": true }
+      ],
+      "demo": null
+    }
+  },
+  {
+    "slug": "trackjob",
+    "title": "TrackJob",
+    "tagline": {
+      "es": "Gestión comercial multiempresa",
+      "en": "Multi-company business management"
+    },
+    "description": {
+      "es": "Sistema de gestión para varias empresas con catálogo, inventario, pedidos, facturas, cuentas por cobrar y por pagar, reportes y un panel de superadministrador.",
+      "en": "Management system for multiple companies with catalog, inventory, orders, invoices, accounts receivable and payable, reports and a super-admin panel."
+    },
+    "highlights": [
+      {
+        "es": "API modular con FastAPI y migraciones con Alembic",
+        "en": "Modular FastAPI API with Alembic migrations"
+      },
+      {
+        "es": "Frontend en React con Vite y Tailwind CSS",
+        "en": "React frontend with Vite and Tailwind CSS"
+      },
+      {
+        "es": "Entorno reproducible con Docker Compose",
+        "en": "Reproducible environment with Docker Compose"
+      }
+    ],
+    "stack": ["React", "Vite", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Docker"],
+    "featured": false,
+    "year": "2026",
+    "links": {
+      "repos": [
+        { "label": "Frontend", "url": "https://github.com/JuniorAngeles/TRACKJOB-FRONT", "private": true },
+        { "label": "Backend", "url": "https://github.com/JuniorAngeles/TRACKJOB-BACK", "private": true }
+      ],
+      "demo": null
+    }
+  },
+  {
+    "slug": "saas-store",
+    "title": "SaaS Store Multi-tenant",
+    "tagline": {
+      "es": "Tienda en línea para múltiples comercios",
+      "en": "Online store for multiple merchants"
+    },
+    "description": {
+      "es": "Storefront multi-tenant con catálogo, búsqueda, carrito, checkout con PayPal y área de cuenta del cliente, conectado a un backend de comercio por GraphQL.",
+      "en": "Multi-tenant storefront with catalog, search, cart, PayPal checkout and a customer account area, connected to a commerce backend through GraphQL."
+    },
+    "highlights": [
+      { "es": "Checkout con PayPal", "en": "PayPal checkout" },
+      { "es": "Estado del carrito con Zustand", "en": "Cart state with Zustand" },
+      {
+        "es": "Formularios validados con React Hook Form y Zod",
+        "en": "Forms validated with React Hook Form and Zod"
+      }
+    ],
+    "stack": ["Next.js", "TypeScript", "GraphQL", "Zustand", "Zod", "PayPal"],
+    "featured": false,
+    "year": "2026",
+    "links": {
+      "repos": [
+        {
+          "label": { "es": "Código", "en": "Code" },
+          "url": "https://github.com/JuniorAngeles/saas-store-multi-tenant",
+          "private": true
+        }
+      ],
+      "demo": null
+    }
+  },
+  {
+    "slug": "my-blog",
+    "title": { "es": "Blog personal", "en": "Personal blog" },
+    "tagline": {
+      "es": "Blog técnico construido con Astro",
+      "en": "Tech blog built with Astro"
+    },
+    "description": {
+      "es": "Blog personal donde comparto notas y aprendizajes de desarrollo web, construido con Astro para obtener páginas estáticas rápidas.",
+      "en": "Personal blog where I share web development notes and lessons learned, built with Astro for fast static pages."
+    },
+    "highlights": [
+      { "es": "Generación estática con Astro", "en": "Static generation with Astro" },
+      { "es": "Contenido en Markdown", "en": "Markdown content" }
+    ],
+    "stack": ["Astro", "TypeScript", "Markdown"],
+    "featured": false,
+    "year": "2025",
+    "links": {
+      "repos": [
+        {
+          "label": { "es": "Código", "en": "Code" },
+          "url": "https://github.com/JuniorAngeles/my-blog",
+          "private": false
+        }
+      ],
+      "demo": null
+    }
+  }
+]

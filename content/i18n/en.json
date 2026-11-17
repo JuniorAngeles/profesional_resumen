@@ -1,0 +1,102 @@
+{
+  "common": {
+    "skipToContent": "Skip to content"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "links": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "experience": "Experience",
+      "cv": "Resume",
+      "contact": "Contact"
+    }
+  },
+  "theme": {
+    "toggle": "Toggle light and dark mode",
+    "title": "Toggle theme"
+  },
+  "language": {
+    "switchLabel": "Ver el sitio en español"
+  },
+  "hero": {
+    "viewProjects": "View projects",
+    "downloadCv": "Download resume",
+    "previewCv": "Preview resume"
+  },
+  "about": {
+    "eyebrow": "01. About",
+    "valuesTitle": "Professional values",
+    "focusTitle": "How I work"
+  },
+  "skills": {
+    "eyebrow": "02. Skills",
+    "title": "Tools I build with",
+    "description": "A TypeScript-first stack end to end, with Python when the problem calls for it.",
+    "listLabel": "{category} skills"
+  },
+  "projects": {
+    "eyebrow": "03. Projects",
+    "title": "Featured projects",
+    "description": "SaaS products and business systems I've designed and built from start to finish.",
+    "featured": "Featured",
+    "private": "private",
+    "privateTitle": "Private repository: available on request",
+    "repoLabel": "{project} source code ({repo}) on GitHub",
+    "demo": "Live demo",
+    "demoLabel": "Live demo of {project}",
+    "stackLabel": "{project} tech stack",
+    "moreOnGithub": "See more on GitHub"
+  },
+  "experience": {
+    "eyebrow": "04. Experience",
+    "title": "Career path",
+    "work": "Work experience",
+    "education": "Education",
+    "stackLabel": "Technologies used at {organization}"
+  },
+  "cv": {
+    "eyebrow": "05. Resume",
+    "title": "My resume",
+    "description": "Take a look at my resume right here or download it as a PDF.",
+    "updated": "Updated",
+    "openNewTab": "Open in new tab",
+    "download": "Download PDF",
+    "previewTitle": "{name}'s resume preview",
+    "mobileNotice": "The preview is available on larger screens. Use the buttons to open or download the resume."
+  },
+  "contact": {
+    "eyebrow": "06. Contact",
+    "title": "Let's talk",
+    "description": "Have a project, a job opening or an idea? Send me a message and I'll get back to you soon.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or proposal…",
+      "honeypot": "Company",
+      "submit": "Send message",
+      "sending": "Sending…"
+    },
+    "validation": {
+      "nameTooShort": "Please enter your name.",
+      "nameTooLong": "The name is too long.",
+      "emailInvalid": "Please enter a valid email.",
+      "messageTooShort": "The message must be at least 10 characters long.",
+      "messageTooLong": "The message can't exceed 2000 characters."
+    },
+    "result": {
+      "success": "Thanks! Your message was sent. I'll reply soon.",
+      "invalid": "Please check the highlighted fields.",
+      "unavailable": "The form isn't available right now. Email me at {email}.",
+      "failed": "The message couldn't be sent. Try again or email me at {email}.",
+      "subject": "New portfolio message from {name}"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

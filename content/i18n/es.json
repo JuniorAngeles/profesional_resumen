@@ -1,0 +1,102 @@
+{
+  "common": {
+    "skipToContent": "Saltar al contenido"
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "links": {
+      "about": "Sobre mí",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "experience": "Experiencia",
+      "cv": "CV",
+      "contact": "Contacto"
+    }
+  },
+  "theme": {
+    "toggle": "Cambiar entre modo claro y oscuro",
+    "title": "Cambiar tema"
+  },
+  "language": {
+    "switchLabel": "Ver el sitio en inglés"
+  },
+  "hero": {
+    "viewProjects": "Ver proyectos",
+    "downloadCv": "Descargar CV",
+    "previewCv": "Vista previa del CV"
+  },
+  "about": {
+    "eyebrow": "01. Sobre mí",
+    "valuesTitle": "Valores profesionales",
+    "focusTitle": "Enfoque de trabajo"
+  },
+  "skills": {
+    "eyebrow": "02. Habilidades",
+    "title": "Herramientas con las que construyo",
+    "description": "Un stack centrado en TypeScript de punta a punta, con Python cuando el problema lo pide.",
+    "listLabel": "Habilidades de {category}"
+  },
+  "projects": {
+    "eyebrow": "03. Proyectos",
+    "title": "Proyectos destacados",
+    "description": "Productos SaaS y sistemas empresariales que he diseñado y desarrollado de principio a fin.",
+    "featured": "Destacado",
+    "private": "privado",
+    "privateTitle": "Repositorio privado: disponible bajo solicitud",
+    "repoLabel": "Código de {project} ({repo}) en GitHub",
+    "demo": "Demo en vivo",
+    "demoLabel": "Demo en vivo de {project}",
+    "stackLabel": "Tecnologías de {project}",
+    "moreOnGithub": "Ver más en GitHub"
+  },
+  "experience": {
+    "eyebrow": "04. Experiencia",
+    "title": "Trayectoria",
+    "work": "Experiencia laboral",
+    "education": "Formación",
+    "stackLabel": "Tecnologías usadas en {organization}"
+  },
+  "cv": {
+    "eyebrow": "05. Currículum",
+    "title": "Mi CV",
+    "description": "Revisa mi currículum aquí mismo o descárgalo en PDF.",
+    "updated": "Actualizado",
+    "openNewTab": "Abrir en otra pestaña",
+    "download": "Descargar PDF",
+    "previewTitle": "Vista previa del CV de {name}",
+    "mobileNotice": "La vista previa está disponible en pantallas grandes. Usa los botones para abrir o descargar el CV."
+  },
+  "contact": {
+    "eyebrow": "06. Contacto",
+    "title": "Hablemos",
+    "description": "¿Tienes un proyecto, una vacante o una idea? Escríbeme y te responderé lo antes posible.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto o propuesta…",
+      "honeypot": "Empresa",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…"
+    },
+    "validation": {
+      "nameTooShort": "Escribe tu nombre.",
+      "nameTooLong": "El nombre es demasiado largo.",
+      "emailInvalid": "Escribe un email válido.",
+      "messageTooShort": "El mensaje debe tener al menos 10 caracteres.",
+      "messageTooLong": "El mensaje no puede superar los 2000 caracteres."
+    },
+    "result": {
+      "success": "¡Gracias! Tu mensaje fue enviado. Te responderé pronto.",
+      "invalid": "Revisa los campos marcados.",
+      "unavailable": "El formulario no está disponible ahora mismo. Escríbeme a {email}.",
+      "failed": "No se pudo enviar el mensaje. Inténtalo de nuevo o escríbeme a {email}.",
+      "subject": "Nuevo mensaje del portafolio de {name}"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

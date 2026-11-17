@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio — Junior Angeles
 
-## Getting Started
+Portafolio personal construido con Next.js 16 (App Router), TypeScript, Tailwind CSS v4, componentes shadcn/ui (Base UI), `lucide-react` y `motion`.
 
-First, run the development server:
+## Inicio rápido
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # opcional: formulario de contacto y URL del sitio
+npm run dev                  # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Script | Uso |
+|---|---|
+| `dev` | Servidor de desarrollo |
+| `build` / `start` | Build y servidor de producción |
+| `lint` | ESLint |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Editar el contenido
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Todo el texto del sitio vive en `content/` y se valida con Zod en `lib/content.ts`. Si un JSON tiene un error, el build falla e indica qué campo corregir.
 
-## Learn More
+| Archivo | Contenido |
+|---|---|
+| `content/site.json` | URL y SEO (título, descripción, keywords) |
+| `content/profile.json` | Nombre, rol, hero, sobre mí, estadísticas, redes y datos del CV |
+| `content/skills.json` | Categorías de habilidades |
+| `content/projects.json` | Proyectos: descripción, stack, repositorios (`private`) y `demo` |
+| `content/experience.json` | Experiencia laboral (`work`) y formación (`education`) |
+| `content/i18n/es.json`, `en.json` | Textos de la interfaz: botones, títulos de sección, formulario |
 
-To learn more about Next.js, take a look at the following resources:
+- **Íconos:** los campos `icon` aceptan los nombres definidos en `lib/icons.ts`. Para agregar uno nuevo, impórtalo de `lucide-react` y añádelo al objeto `icons`.
+- **CV:** hay uno por idioma en `public/cv/` (`junior-angeles-cv-es.pdf` y `junior-angeles-cv-en.pdf`). Si cambias el nombre, actualiza `profile.json → cv.file`.
+- **Repos privados:** con `"private": true` la tarjeta muestra la etiqueta "privado" sin enlace. Cámbialo a `false` cuando hagas público el repositorio.
+- **Demo en vivo:** pon la URL en `links.demo` (o `null` para ocultar el botón).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Idiomas (español e inglés)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+El sitio vive en `/es` y `/en` (`app/[lang]/`). Al entrar a `/`, `proxy.ts` redirige según la cookie `NEXT_LOCALE` (la guarda el selector ES/EN del navbar) o, si no existe, según el idioma del navegador. Si no coincide con ninguno, usa español.
 
-## Deploy on Vercel
+En los JSON de `content/`, cada texto puede escribirse de dos formas:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```json
+"title": "Bloque ERP"
+"tagline": { "es": "ERP para empresas constructoras", "en": "ERP for construction companies" }
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Un string se muestra igual en los dos idiomas. Un objeto `{ "es", "en" }` debe tener ambas claves o el build falla.
+
+Los textos de la interfaz están en `content/i18n/`. Las dos versiones deben tener las mismas claves: TypeScript avisa si a `en.json` le falta alguna que exista en `es.json`. Los marcadores como `{project}` se reemplazan con `format()` de `lib/i18n.ts`.
+
+Para agregar un idioma: añádelo a `locales` en `lib/i18n-config.ts`, crea su diccionario en `content/i18n/`, agrega su clave en los objetos de idioma de los JSON y su entrada en `localeConfig` (`lib/i18n.ts`).
+
+## Formulario de contacto
+
+Usa una Server Action (`app/actions/contact.ts`) y [Resend](https://resend.com). Define `RESEND_API_KEY` y, opcionalmente, `CONTACT_TO_EMAIL` y `CONTACT_FROM_EMAIL`. Sin la clave, el formulario responde con un mensaje que muestra tu email.
+
+## Estructura
+
+```
+app/[lang]/     layout raíz por idioma (SEO, tema), página e imagen Open Graph
+app/            sitemap, robots y server actions
+proxy.ts        redirección de "/" al idioma preferido
+components/
+  layout/       navbar, footer, botón de tema
+  sections/     hero, about, skills, projects, experience, cv, contact
+  shared/       piezas reutilizables (section, reveal, project-card, timeline-item, …)
+  icons/        íconos de marca y AppIcon
+  ui/           componentes shadcn/ui
+content/        datos en JSON y diccionarios de la interfaz (i18n/)
+lib/            contenido, i18n, SEO, tema, utilidades
+public/cv/      CV en PDF por idioma
+```

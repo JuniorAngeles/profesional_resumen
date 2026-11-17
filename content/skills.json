@@ -1,0 +1,45 @@
+[
+  {
+    "category": "Frontend",
+    "icon": "monitor",
+    "items": ["React", "Next.js", "Angular", "TypeScript", "JavaScript", "Redux", "Tailwind CSS", "Vite", "HTML", "CSS"]
+  },
+  {
+    "category": "Backend",
+    "icon": "server",
+    "items": ["Node.js", "NestJS", "Express.js", "Python", "FastAPI", "Prisma ORM", "REST APIs", "WebSockets (Socket.io)", "JWT", "BullMQ"]
+  },
+  {
+    "category": { "es": "Bases de datos", "en": "Databases" },
+    "icon": "database",
+    "items": ["PostgreSQL", "MySQL", "SQL Server", "Redis", "MongoDB", "Supabase", "Row-Level Security"]
+  },
+  {
+    "category": { "es": "Cloud y DevOps", "en": "Cloud & DevOps" },
+    "icon": "cloud",
+    "items": ["AWS", "Azure", "DigitalOcean", "Vercel", "Firebase", "Docker", "Git", "CI/CD"]
+  },
+  {
+    "category": { "es": "IA y productividad", "en": "AI & productivity" },
+    "icon": "sparkles",
+    "items": [
+      "Claude Code",
+      "Cursor",
+      { "es": "Integración de LLMs", "en": "LLM integration" },
+      "Gemini",
+      "Perplexity AI",
+      "DeepSeek"
+    ]
+  },
+  {
+    "category": { "es": "Habilidades blandas", "en": "Soft skills" },
+    "icon": "users",
+    "items": [
+      { "es": "Comunicación", "en": "Communication" },
+      { "es": "Trabajo en equipo", "en": "Teamwork" },
+      { "es": "Resolución de problemas", "en": "Problem solving" },
+      { "es": "Adaptabilidad", "en": "Adaptability" },
+      { "es": "Gestión del tiempo", "en": "Time management" }
+    ]
+  }
+]

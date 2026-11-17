@@ -1,0 +1,25 @@
+{
+  "url": "https://juniorangeles.vercel.app",
+  "lastUpdated": "2026-11-17",
+  "titleTemplate": "%s | Junior Angeles",
+  "title": {
+    "es": "Junior Angeles — Desarrollador Full Stack",
+    "en": "Junior Angeles — Full Stack Developer"
+  },
+  "description": {
+    "es": "Portafolio de Junior Angeles, desarrollador Full Stack en República Dominicana especializado en React, Next.js, NestJS, TypeScript y PostgreSQL. Plataformas SaaS, ERPs y sistemas en tiempo real.",
+    "en": "Portfolio of Junior Angeles, a Full Stack Developer based in the Dominican Republic specializing in React, Next.js, NestJS, TypeScript and PostgreSQL. SaaS platforms, ERPs and real-time systems."
+  },
+  "keywords": [
+    "Junior Angeles",
+    { "es": "Desarrollador Full Stack", "en": "Full Stack Developer" },
+    { "es": "Portafolio", "en": "Portfolio" },
+    { "es": "República Dominicana", "en": "Dominican Republic" },
+    "Next.js",
+    "React",
+    "NestJS",
+    "TypeScript",
+    "PostgreSQL",
+    "SaaS"
+  ]
+}

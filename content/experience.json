@@ -1,0 +1,114 @@
+[
+  {
+    "type": "work",
+    "role": { "es": "Desarrollador Full Stack", "en": "Full Stack Developer" },
+    "organization": "Codeable Labs",
+    "location": { "es": "Perú (remoto)", "en": "Peru (remote)" },
+    "start": { "es": "abr. 2026", "en": "Apr 2026" },
+    "end": { "es": "Actualidad", "en": "Present" },
+    "achievements": [
+      {
+        "es": "Diseñé, construí y desplegué desde cero un sistema completo en Azure con Python (FastAPI) y React, incluyendo la arquitectura en la nube y el pipeline de CI/CD.",
+        "en": "Designed, built and deployed a complete system from scratch on Azure with Python (FastAPI) and React, defining the cloud architecture and the CI/CD pipeline."
+      },
+      {
+        "es": "Integré un LLM (Gemini/Perplexity AI) con Python para filtrar eventos de forma inteligente.",
+        "en": "Integrated an LLM (Gemini/Perplexity AI) with Python to filter events intelligently."
+      },
+      {
+        "es": "Construí interfaces complejas en Angular y React para gestionar y conciliar órdenes de medios, integradas con sistemas externos vía REST.",
+        "en": "Built complex Angular and React interfaces to manage and reconcile media orders, integrated with external systems through REST APIs."
+      }
+    ],
+    "stack": ["React", "Angular", "TypeScript", "Python", "FastAPI", "Azure", "CI/CD"]
+  },
+  {
+    "type": "work",
+    "role": { "es": "Desarrollador Frontend", "en": "Frontend Developer" },
+    "organization": "iKompras S.R.L.",
+    "location": { "es": "República Dominicana (remoto)", "en": "Dominican Republic (remote)" },
+    "start": { "es": "may. 2024", "en": "May 2024" },
+    "end": { "es": "abr. 2026", "en": "Apr 2026" },
+    "achievements": [
+      {
+        "es": "Desarrollé y optimicé una interfaz de carrito de compras de alto rendimiento con React y Vite.",
+        "en": "Developed and optimized a high-performance shopping cart interface with React and Vite."
+      },
+      {
+        "es": "Construí componentes reutilizables para plataformas corporativas de rastreo con monitoreo en tiempo real.",
+        "en": "Built reusable UI components for corporate tracking platforms with real-time monitoring."
+      },
+      {
+        "es": "Implementé una arquitectura frontend modular que mantiene consistentes los módulos de los dashboards empresariales.",
+        "en": "Implemented a modular frontend architecture that keeps enterprise dashboard modules consistent."
+      }
+    ],
+    "stack": ["React", "TypeScript", "Vite", "Tailwind CSS"]
+  },
+  {
+    "type": "work",
+    "role": { "es": "Desarrollador Full Stack", "en": "Full Stack Developer" },
+    "organization": "Ortomac",
+    "location": { "es": "República Dominicana (híbrido)", "en": "Dominican Republic (hybrid)" },
+    "start": { "es": "ene. 2023", "en": "Jan 2023" },
+    "end": { "es": "abr. 2024", "en": "Apr 2024" },
+    "achievements": [
+      {
+        "es": "Desarrollé un carrito de compras con retiro en tienda y entrega a domicilio con Next.js y NestJS.",
+        "en": "Developed a shopping cart system with in-store pickup and delivery using Next.js and NestJS."
+      },
+      {
+        "es": "Implementé rastreo en tiempo real con Socket.io que reemplazó el polling y redujo costos de Google Maps API.",
+        "en": "Implemented real-time tracking with Socket.io that replaced polling and reduced Google Maps API costs."
+      },
+      {
+        "es": "Diseñé y lancé desde cero un ERP de inventario con Business Intelligence que automatizó reportes y control de stock.",
+        "en": "Designed and launched from scratch an inventory ERP with Business Intelligence that automated reporting and stock control."
+      }
+    ],
+    "stack": ["Next.js", "NestJS", "Socket.io", "JWT", "PostgreSQL", "Google Maps API"]
+  },
+  {
+    "type": "education",
+    "role": { "es": "Ingeniería de Software", "en": "Software Engineering (B.S.)" },
+    "organization": "Universidad Abierta para Adultos (UAPA)",
+    "location": { "es": "República Dominicana", "en": "Dominican Republic" },
+    "start": "2024",
+    "end": { "es": "Actualidad", "en": "Present" },
+    "achievements": [],
+    "stack": []
+  },
+  {
+    "type": "education",
+    "role": { "es": "Inglés por inmersión", "en": "English immersion program" },
+    "organization": "Universidad Católica del Cibao (UCATECI)",
+    "location": { "es": "República Dominicana", "en": "Dominican Republic" },
+    "start": "2024",
+    "end": "2025",
+    "achievements": [],
+    "stack": []
+  },
+  {
+    "type": "education",
+    "role": { "es": "Desarrollo Web", "en": "Web Development" },
+    "organization": "Cincinnatus Institute of Craftsmanship",
+    "location": { "es": "República Dominicana", "en": "Dominican Republic" },
+    "start": "2021",
+    "end": "2023",
+    "achievements": [],
+    "stack": []
+  },
+  {
+    "type": "education",
+    "role": {
+      "es": "Técnico Superior en Desarrollo y Administración de Aplicaciones",
+      "en": "Associate Degree in Application Development and Administration"
+    },
+    "organization": "C.E. Manuel Acevedo Serrano (Fe y Alegría)",
+    "location": { "es": "República Dominicana", "en": "Dominican Republic" },
+    "start": null,
+    "end": null,
+    "achievements": [],
+    "stack": []
+  }
+]
