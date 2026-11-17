@@ -175,7 +175,7 @@
         "en": "Forms validated with React Hook Form and Zod"
       }
     ],
-    "stack": ["Next.js", "TypeScript", "GraphQL", "Zustand", "Zod", "PayPal"],
+    "stack": ["Next.js", "TypeScript", "GraphQL", "Zustand", "Zod", "PayPal", "Vendure"],
     "featured": false,
     "year": "2026",
     "links": {
