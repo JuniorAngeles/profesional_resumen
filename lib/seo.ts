@@ -11,6 +11,7 @@ export function getPersonJsonLd({ profile }: Content, locale: Locale) {
     jobTitle: profile.role,
     description: profile.summary,
     url: `${siteUrl}/${locale}`,
+    image: `${siteUrl}${profile.photo.src}`,
     email: `mailto:${profile.email}`,
     address: { "@type": "PostalAddress", addressCountry: "DO" },
     knowsLanguage: ["es", "en"],

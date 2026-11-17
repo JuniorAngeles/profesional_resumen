@@ -17,6 +17,13 @@
     "es": "Desarrollador Full Stack con más de 3 años de experiencia creando aplicaciones web con React, Next.js, NestJS, TypeScript y PostgreSQL. Me involucro desde la arquitectura y el diseño de la base de datos hasta la interfaz y el despliegue en la nube.",
     "en": "Full Stack Developer with 3+ years of experience building web applications with React, Next.js, NestJS, TypeScript and PostgreSQL. I work across the whole product, from architecture and database design to the user interface and cloud deployment."
   },
+  "photo": {
+    "src": "/images/junior-angeles.jpg",
+    "alt": {
+      "es": "Retrato de Junior Angeles sonriendo, con saco blanco y suéter negro",
+      "en": "Portrait of Junior Angeles smiling, wearing a white blazer and black turtleneck"
+    }
+  },
   "cv": {
     "file": { "es": "/cv/junior-angeles-cv-es.pdf", "en": "/cv/junior-angeles-cv-en.pdf" },
     "downloadName": { "es": "Junior-Angeles-CV-ES.pdf", "en": "Junior-Angeles-Resume-EN.pdf" },

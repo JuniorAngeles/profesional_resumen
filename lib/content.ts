@@ -38,6 +38,10 @@ function createSchemas(locale: Locale) {
     greeting: text,
     headline: text,
     summary: text,
+    photo: z.object({
+      src: z.string().startsWith("/"),
+      alt: text,
+    }),
     cv: z.object({
       file: text.pipe(z.string().startsWith("/")),
       downloadName: text,
