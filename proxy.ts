@@ -37,6 +37,6 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Excluye internos de Next y archivos con extensión (CV, favicon, sitemap.xml, robots.txt).
-  matcher: ["/((?!_next|.*\\..*).*)"],
+  // Excluye internos de Next, archivos con extensión (CV, sitemap.xml, robots.txt) y el ícono de Apple, que no lleva extensión.
+  matcher: ["/((?!_next|apple-icon|.*\\..*).*)"],
 }
